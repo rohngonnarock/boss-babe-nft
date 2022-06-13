@@ -9,7 +9,7 @@ function App() {
 
     let User = {
       // changable // DONT FORGET ABI
-      contractAddress: "0x5B4c617E689a711cF7338daE7DcD02Bdac49C1f9", // main
+      contractAddress: "0x220c9dA65484Abf9DA92f46e432193C9E5AFEb4B", // main  
       costPerToken: "0.07",
       totalMintSupply: "3000",
       // set immediately
