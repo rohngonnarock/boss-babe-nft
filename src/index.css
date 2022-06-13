@@ -1,0 +1,335 @@
+/*--------------------------------------------------------------
+# base
+--------------------------------------------------------------*/
+@font-face {
+  font-family: "Lulo Clean W01 One Bold";
+  src: url("fonts/Net-Lulo.ttf");
+}
+@font-face {
+  font-family: "Avenir Light";
+  src: url("fonts/Avenir-Light.ttf");
+}
+body {
+  font-family: "Avenir Light";
+  font-size: 16px;
+  font-style: normal;
+  color: #000;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.top-nav {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0.1rem 0.1rem 0 rgba(36, 39, 46, 0.15);
+  box-shadow: 0 0.1rem 0.1rem 0 rgba(36, 39, 46, 0.15);
+  z-index: 999;
+}
+.top-nav .logo {
+  font-family: "Lulo Clean W01 One Bold";
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+@media only screen and (max-width: 991px) {
+  .top-nav .logo {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .top-nav .logo {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .top-nav {
+    padding-top: 16px;
+    padding-bottom: 14px;
+  }
+}
+
+/*--------------------------------------------------------------
+# hero-home
+--------------------------------------------------------------*/
+.hero-home {
+  padding-top: 140px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 991px) {
+  .hero-home {
+    padding-top: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-home {
+    padding-top: 80px;
+  }
+}
+.hero-home .hero-text .priamry-title {
+  margin-bottom: 0px;
+}
+@media only screen and (max-width: 991px) {
+  .hero-home .hero-text .priamry-title {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-home .hero-text .priamry-title {
+    margin-bottom: 0px;
+  }
+}
+.hero-home .hero-text .priamry-title h1 {
+  font-family: "Lulo Clean W01 One Bold";
+  font-size: 70px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0px;
+  letter-spacing: -11px;
+}
+@media only screen and (max-width: 1199px) {
+  .hero-home .hero-text .priamry-title h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .hero-home .hero-text .priamry-title h1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-home .hero-text .priamry-title h1 {
+    font-size: 46px;
+  }
+}
+.hero-home .hero-text .priamry-title span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 40px;
+  color: #000;
+  padding-left: 4px;
+  letter-spacing: 3px;
+}
+@media only screen and (max-width: 991px) {
+  .hero-home .hero-text .priamry-title span {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-home .hero-text .priamry-title span {
+    font-size: 27px;
+  }
+}
+.hero-home .hero-text .act-text p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 767px) {
+  .hero-home .hero-text .act-text p {
+    font-size: 18px;
+  }
+}
+.hero-home .form-con {
+  position: relative;
+  margin-top: 20px;
+  max-width: 400px;
+}
+@media only screen and (max-width: 767px) {
+  .hero-home .form-con {
+    margin-top: 16px;
+  }
+}
+.hero-home .form-con .form-control {
+  border-radius: 0;
+  height: 48px;
+  font-size: 17px;
+  border-color: #000;
+  border-width: 2px;
+  letter-spacing: 1px;
+}
+.hero-home .form-con .form-control::-webkit-input-placeholder {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.hero-home .form-con .form-control::-moz-placeholder {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.hero-home .form-con .form-control:-ms-input-placeholder {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.hero-home .form-con .form-control::-ms-input-placeholder {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.hero-home .form-con .form-control::placeholder {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 767px) {
+  .hero-home .form-con .form-control::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  .hero-home .form-con .form-control::-moz-placeholder {
+    font-size: 16px;
+  }
+  .hero-home .form-con .form-control:-ms-input-placeholder {
+    font-size: 16px;
+  }
+  .hero-home .form-con .form-control::-ms-input-placeholder {
+    font-size: 16px;
+  }
+  .hero-home .form-con .form-control::placeholder {
+    font-size: 16px;
+  }
+}
+.hero-home .form-con .form-control:focus {
+  border-color: #000;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+.hero-home .form-con .btn-mint {
+  text-decoration: none;
+  border: 0;
+  outline: none;
+  padding: 1px 22px;
+  height: 48px;
+  background-color: #000;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  letter-spacing: 1px;
+}
+.hero-home .form-con .btn-mint:hover {
+  background-color: #333333;
+  color: #fff;
+}
+.hero-home .hero-img {
+  text-align: center;
+  background: linear-gradient(
+    340deg,
+    #ffb9e5 22.3449707031%,
+    #ecf872 51.0040283203%,
+    #bee0e6 76.8676757813%
+  );
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+}
+.hero-home .btn-discord {
+  display: inline-block;
+  padding: 8px 30px;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-sizing: 0;
+  box-sizing: 0;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  border: 1px solid #000;
+}
+.hero-home .btn-discord:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media only screen and (max-width: 991px) {
+  .hero-home .btn-discord {
+    margin-top: 20px;
+  }
+}
+
+/*--------------------------------------------------------------
+# social-list
+--------------------------------------------------------------*/
+.social-list {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .social-list {
+    left: 15px;
+  }
+}
+.social-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.social-list ul li:not(:last-child) {
+  margin-bottom: 7px;
+}
+.social-list ul li a {
+  display: inline-block;
+}
+.social-list ul li a img {
+  width: 22px;
+  height: 22px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+.footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+@media only screen and (max-width: 991px) {
+  .footer {
+    padding-top: 0;
+  }
+}
+.footer span {
+  font-family: "Lulo Clean W01 One Bold";
+  font-weight: 700;
+  color: #8aa1b0;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+@media only screen and (max-width: 767px) {
+  .footer span {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .footer span {
+    font-size: 14px;
+  }
+}
